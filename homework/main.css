@@ -1,1 +1,216 @@
-/* Добавьте сюда описание стилей */
+body {
+  margin: 0;
+  color: #2f2f2f;
+}
+.head-text {
+  text-align: center;
+}
+.head-text.color-white {
+  color: #fff;
+}
+.head-text .color {
+  color: #63ceb9;
+}
+.head-text.line_bottom::after {
+  content: "";
+  display: block;
+  margin: 15px auto;
+  height: 2px;
+  width: 50px;
+  background: #dbdbdb;
+  text-align: center;
+}
+.head-text + .description {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.container-card {
+  color: #fff;
+  width: 1020px;
+  margin: 0 auto;
+}
+.container-card::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.user_card {
+  position: relative;
+  width: 260px;
+  height: 410px;
+  padding: 20px;
+  float: left;
+  margin: 0 20px;
+}
+.user_card .user_card-name,
+.user_card .user_card-job,
+.user_card .user_card-social {
+  display: none;
+}
+.user_card:hover {
+  background: rgba(0,0,0,0.8);
+}
+.user_card:hover .user_card-name,
+.user_card:hover .user_card-job,
+.user_card:hover .user_card-social {
+  display: block;
+}
+.user_card img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: -1;
+}
+.user_card-name {
+  text-align: right;
+  color: #fff;
+  text-transform: uppercase;
+}
+.user_card-name span {
+  display: inline-block;
+  border-bottom: 1px dashed #cbcbcb;
+  display: inline-block;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+.user_card-job {
+  text-align: right;
+  font-size: 14px;
+}
+.user_card-social {
+  position: absolute;
+  bottom: 20px;
+  right: 15px;
+}
+.user_card-social .facebook {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background: url(img/facebook.png) no-repeat center;
+  margin: 0 5px;
+}
+.user_card-social .twitter {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background: url(img/twitter.png) no-repeat center;
+  margin: 0 5px;
+}
+.user_card-social .instagram {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background: url(img/instagram.png) no-repeat center;
+  margin: 0 5px;
+}
+#info {
+  background: url(img/architectes.jpg) no-repeat center;
+  margin-top: 60px;
+  padding: 20px 40px;
+}
+#info::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.info-block {
+  float: right;
+  max-width: 600px;
+  padding: 0 40px;
+}
+#info .head-text {
+  text-align: left;
+  margin: 0;
+}
+.head-text.color-white::after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 2px;
+  background: #fff;
+  margin: 20px 0;
+}
+ .text-bellow {
+  color: #fff;
+  margin-bottom: 40px;
+}
+.float-block .link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  display: block;
+}
+.float-block .link + .link {
+  margin-top: 20px;
+}
+.float-block::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.float-block-left {
+  float: left;
+}
+.float-block-right {
+  float: right;
+}
+.icon_1 {
+  background: url(img/1-1.png) no-repeat left center;
+  padding: 22px 0;
+  padding-left: 74px;
+}
+.icon_1:hover {
+  background-image: url(img/1.png);
+}
+.icon_2 {
+  background: url(img/2-1.png) no-repeat left center;
+  padding: 22px 0;
+  padding-left: 74px;
+}
+.icon_2:hover {
+  background-image: url(img/2.png);
+}
+.icon_3 {
+  background: url(img/3-1.png) no-repeat left center;
+  padding: 22px 0;
+  padding-left: 74px;
+}
+.icon_3:hover {
+  background-image: url(img/3.png);
+}
+.icon_4 {
+  background: url(img/4-1.png) no-repeat left center;
+  padding: 22px 0;
+  padding-left: 74px;
+}
+.icon_4:hover {
+  background-image: url(img/4.png);
+}
+.icon_5 {
+  background: url(img/5-1.png) no-repeat left center;
+  padding: 22px 0;
+  padding-left: 74px;
+}
+.icon_5:hover {
+  background-image: url(img/5.png);
+}
+.icon_6 {
+  background: url(img/6-1.png) no-repeat left center;
+  padding: 22px 0;
+  padding-left: 74px;
+}
+.icon_6:hover {
+  background-image: url(img/6.png);
+}
+.head-image {
+  display: block;
+  margin: 40px auto;
+}
+.text_full {
+  text-align: justify;
+  padding: 0 40px;
+}
